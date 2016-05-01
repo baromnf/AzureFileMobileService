@@ -1,0 +1,38 @@
+<ion-view view-title="File">
+    <ion-content class="padding">
+        <h2>File Upload</h2>
+        <div class="list">
+            <div class="item" href="#">
+                Name
+                <span class="item-note">
+    {{ uploadfile.src.name }}
+    </span>
+            </div>
+            <div class="item" href="#">
+                Size
+                <span class="item-note">
+    {{ uploadfile.src.size }}
+    </span>
+            </div>
+            <div class="item" href="#">
+                Type
+                <span class="item-note">
+    {{ uploadfile.src.type }}
+    </span>
+            </div>
+            <div class="item" href="#">
+                Progress
+                <span class="item-note">
+{{ progress }}
+    </span>
+            </div>
+        </div>
+        <button class="button button-full button-light" ng-click="selectFile()">
+            Select File
+        </button>
+        <button class="button button-full button-positive" ng-click="upload()">
+            Upload
+        </button>
+        <input type="file" id="file" style="display:none;" fileread="uploadfile.src"  />
+
+</ion-view>
