@@ -1,7 +1,7 @@
 # AzureFileMobileService
 Upload a large file to Azure Storage using SAS, Azure Mobile Service and Cordova (Ionic) Client. 
 
-### Server Side Step
+### Server Side Steps
 * [upload-data-blob-storage](https://azure.microsoft.com/en-us/documentation/articles/mobile-services-dotnet-backend-windows-universal-dotnet-upload-data-blob-storage/)
 * Create Mobile Service Project
 * Add WindowsAzure.Storage Nuget Package.
@@ -18,7 +18,7 @@ Upload a large file to Azure Storage using SAS, Azure Mobile Service and Cordova
  * ` <add key="STORAGE_ACCOUNT_ACCESS_KEY" value="**your_access_token_secret**" /> `
 * Replace the existing PostTodoItem method in todoContoller
 
-###Client Side Step
+###Client Side Steps
 * [Ionic](http://ionicframework.com/getting-started/)
 * [Azure mobileservice javascript client](https://azure.microsoft.com/en-us/documentation/articles/mobile-services-html-how-to-use-client-library/)
 * [azure-blob-upload](https://github.com/kinstephen/angular-azure-blob-upload/blob/master/azure-blob-upload.js)
