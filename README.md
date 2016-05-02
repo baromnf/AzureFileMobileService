@@ -10,7 +10,7 @@ Upload a large file to Azure Storage using SAS, Azure Mobile Service and Cordova
 * Add the new properties to the TodoItem class in  DataObjects folder.
 * Create Azure storage Account.</li>
 * In the Azure classic portal / Storage / Manage Keys / get access key.
-* In your mobile service / Configure tab /App settings / add following key value pair.
+* In your Azure potal / mobile service / Configure tab /App settings / add following key value pair.
   * <Code>STORAGE_ACCOUNT_NAME</Code>
   * <Code>STORAGE_ACCOUNT_ACCESS_KEY</Code>
 * In Visual Studio for the mobile service project /  Web.config file add following app setting
